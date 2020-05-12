@@ -6,8 +6,16 @@ header {
     justify-content: space-between;
     align-items: center;
 
+    @media @mobile {
+        flex-direction: column;
+    }
+
     nav {
         
+        @media @mobile {
+            padding-top: 3%;
+        }
+
         a {
           margin-left: 20px;
           font-size: 1.8rem;
