@@ -41,7 +41,10 @@
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    
+    @media @mobile {
 
+    }
     img {
       border-radius: 10px;
     }
@@ -56,6 +59,10 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn {
+        .cutom-button();
+      }
     }
   }
 }// home
