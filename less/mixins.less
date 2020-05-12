@@ -8,3 +8,10 @@
     font-size: 1.8rem;
     margin-right: 30px; 
 }
+
+.color-change-animation(@starting-color, @ending-color) {
+    @keyframes example {
+        from {background-color: @starting-color;}
+        to {background-color: @ending-color;}
+      }
+}
