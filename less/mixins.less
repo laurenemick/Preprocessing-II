@@ -1,1 +1,17 @@
 // Mixins in here
+.cutom-button(@font-color: @white, @bg-color: #008081) {
+    color: @font-color;
+    background-color: @bg-color;
+    padding: 6% 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-right: 30px; 
+}
+
+.color-change-animation(@starting-color, @ending-color) {
+    @keyframes example {
+        from {background-color: @starting-color;}
+        to {background-color: @ending-color;}
+      }
+}
